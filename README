@@ -19,9 +19,7 @@ Supported Plattforms:
 Linux/i386: yes
 Linux/others: ??? (if you run a system with this plattform please let
     us know)
-Max OSX: Sorry, not yet. We need a tester to make the build toolchain
-    running. There should be no technical problems but we have no
-    test system for this. Thanks!
+Max OSX: yes (configure with `./configure CPPFLAGS=-DGTEST_USE_OWN_TR1_TUPLE=1`)
 Win/Mingw: yes (but TCL interface isn't checked or build)
 others: ??? (if you run a system with this plattform please let us know)
 
